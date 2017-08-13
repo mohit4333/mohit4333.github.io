@@ -129,6 +129,48 @@ body{
     color: white;
 }
 
+#header .dropdown {
+    position: absolute;
+    width: 12%;
+    left: 599px;
+    top: 57px;
+    border: 1px solid grey;
+    display: none;
+    padding-top: 0px;
+
+}
+
+#header .button{
+    position: relative;
+}
+
+/*#main-navigation .dropdown img {
+    width: 20%;
+}*/
+
+#header ul li:nth-child(6):hover .dropdown {
+    display: block;
+}
+
+#header .sign-in{
+    display: none;
+    background-color: linear-gradient(180deg,rgba(0,0,12,.9),rgba(0,0,12,.9) 50%,transparent);
+    color: red;
+    position: absolute;
+    top:60px;
+    width: 100%;
+    left: 50px;
+}
+
+#header ul li:nth-child(5):hover .sign-in{
+    display: inline-block;
+    /*
+    position: fixed;
+    */
+
+}
+
+
 #header .fa{
     color: white;
 }
@@ -905,6 +947,9 @@ body{
     body {
         height: 3588px;
     }
+    #header .dropdown {
+        width: 13%;
+    }
 }
 
 @media(max-width: 1200px){
@@ -1034,6 +1079,22 @@ body{
         position: relative;
         height: 558px;
     }
+    #header .dropdown {
+        position: absolute;
+        width: 16%;
+        left: 466px;
+        top: 57px;
+        border: 1px solid grey;
+        display: none;
+        padding-top: 0px;
+    }
+    #header .sign-in {
+        width: 105%;
+        left: -34px;
+    }
+
+
+
 }
 
 @media(max-width: 984px) {
@@ -1051,7 +1112,22 @@ body{
     }
     .end-part {
     height: 70px;
-}
+    }
+    #header .dropdown {
+        position: absolute;
+        width: 16%;
+        left: 466px;
+        top: 57px;
+        border: 1px solid grey;
+        display: none;
+        padding-top: 0px;
+    }
+    #header .sign-in {
+        width: 106%;
+        left: -36px;
+    }
+
+
 
 }
 
@@ -1084,6 +1160,14 @@ body{
     }
     .carousel {
         height: 540px;
+    }
+    #header .sign-in {
+        width: 109%;
+        left: -50px;
+    }
+    #header .dropdown {
+        width: 16%;
+        left: 457px;
     }
 
 }
@@ -1220,6 +1304,15 @@ body{
         font-weight: 600;
         padding: 8px;
     }
+    #header .dropdown {
+        width: 24%;
+        left: 220px;
+    }
+    #header .sign-in {
+        width: 75%;
+        left: 19px;
+    }
+
 }
 
 

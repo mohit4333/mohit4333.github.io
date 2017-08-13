@@ -1122,10 +1122,12 @@ body{
         display: none;
         padding-top: 0px;
     }
+  
     #header .sign-in {
-        width: 106%;
-        left: -36px;
-    }
+    width: 150%;
+    left: -60px;
+}
+
 
 
 
